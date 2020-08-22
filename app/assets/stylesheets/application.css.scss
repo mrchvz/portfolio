@@ -1,0 +1,52 @@
+@import "bootstrap";
+$background: #F4F4F4;
+$pink: #FFD1DC;
+$pinkie: #FFEDEC;
+$ponk: #C72f3B;
+$blue: #1f2333;
+
+html, body {
+  font-family: 'Alata', sans-serif;
+  background-color: $background;
+}
+
+header {
+  background-color: $ponk;
+  color: white;
+  padding: 5px 160px;
+  margin-bottom: 100px;
+    a {
+      color: white;
+    }
+}
+
+.header-imagen {
+  margin-right: 10px;
+}
+
+footer {
+  background-color: $ponk;
+  color: white;
+  padding: 80px 100px;
+  margin-top: 100px;
+
+}
+
+.button, .btn, .btn-primary {
+  background-color: #C72F3B;
+  border-color: #C72F3B;
+}
+// welcome
+.welcome-jumbotron {
+  background-color: $background;
+  background-image: asset_url("stairs.jpg");
+  padding: 300px 100px;
+  margin-top: -100px;
+  margin-bottom: -100px;
+}
+
+//portfolio
+.portfolio-img {
+  margin-bottom: 30px;
+
+}
